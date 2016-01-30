@@ -1,0 +1,267 @@
+#heading
+{
+	font-size: 56px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#state-list
+{
+	height:50px;
+	width:355px;
+	position:relative;
+	right:330px;
+	top: 1px;
+	float: right;
+	font-size: 25px;
+	font-weight: bold;
+	color: #959595;
+}
+
+#stateLabel
+{
+	height: 50px;
+	width: 50px;
+	position: relative;
+	left: 250px;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#city-list
+{
+	height:50px;
+	width:355px;
+	position:relative;
+	right:330px;
+	top:10px;
+	float: right;
+	font-size: 25px;
+	font-weight: bold;
+	color: #959595;
+}
+
+#cityLabel
+{
+	height: 50px;
+	width: 50px;
+	top: 10px;
+	position: relative;
+	left: 250px;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#street
+{
+	height: 50px;
+	width: 350px;
+	position: relative;
+	top: 12px;
+	left: 588px;
+	font-size: 25px;
+	background-color: #FFFFBB;
+	/*//font-weight: bold;*/
+}
+
+#streetLabel
+{
+	position: relative;
+	top: 18px;
+	left: 250px;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#building
+{
+	height: 50px;
+	width: 350px;
+	position:relative;
+	left: 537px;
+	top:0px;
+	font-size: 25px;
+	background-color: #FFFFBB;
+}
+
+#buildingLabel
+{
+	position: relative;
+	top: 5px;
+	left: 250px;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#flatNo
+{
+	height: 50px;
+	width: 350px;
+	position:relative;
+	left: 547px;
+	bottom: 10px;
+	font-size: 25px;
+	background-color: #FFFFBB;
+}
+
+#flatNoLabel
+{
+	position: relative;
+	top: 0px;
+	left: 250px;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#phoneNumber
+{
+	height: 50px;
+	width: 350px;
+	position: relative;
+	left: 410px;
+	top: 0px;
+	font-size: 25px;
+	background-color: #FFFFBB;
+}
+
+#phoneNumberLabel
+{
+	position: relative;
+	top: 10px;
+	left: 250px;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.cancelOrder
+{
+	-moz-box-shadow: 0px 0px 8px 0px #e04414;
+	-webkit-box-shadow: 0px 0px 8px 0px #e04414;
+	box-shadow: 0px 0px 8px 0px #e04414;
+	background-color:#c74545;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:5px solid #700404;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0f0e0e;
+}
+
+.cancelOrder:hover
+{
+	background-color:#f56200;
+}
+
+.cancelOrder:active
+{
+	position:relative;
+	top:1px;
+}
+
+#cancelOrder
+{
+	position: relative;
+	left: 570px;
+	top: 15px;
+}
+
+.confirmOrder
+{
+	-moz-box-shadow: 0px 0px 8px 0px #1436de;
+	-webkit-box-shadow: 0px 0px 8px 0px #1436de;
+	box-shadow: 0px 0px 8px 0px #1436de;
+	background-color:#45c745;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:5px solid #168026;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0f0e0e;
+}
+
+.confirmOrder:hover
+{
+	background-color:#8bf500;
+}
+
+.confirmOrder:active
+{
+	position:relative;
+	top:1px;
+}
+
+#confirmOrder
+{
+	position: relative;
+	top: 80px;
+	left: 900px;
+}
+
+.qty
+{
+	height:40px;
+	position:relative;
+	right:240px;
+}
+
+/*.frmDronpDown
+{
+	border: 1px solid #F0F0F0;
+	background-color:#C8EEFD;
+	background-color: red;
+	margin: 2px 0px;
+	padding-top: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+}*/
+
+.demoInputBox
+{
+	padding: 10px;
+	border: #F0F0F0 1px solid;
+	border-radius: 4px;
+/*	background-color: #FFF;
+*/	background-color: #FFFFBB;
+	width: 50%;
+}
+
+.row
+{
+	padding-bottom:0px;
+/*	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;*/
+}
+
+body
+{
+	background: url(static/images/confirmOrder.jpg);
+	/*background-color: orange;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:cover;
+}
+
+#totalPrice
+{
+	position: relative;
+	left: 100px;
+	bottom: 120px;
+	font-size: 45px;
+	font-weight: bold;
+	font-style: oblique;
+}

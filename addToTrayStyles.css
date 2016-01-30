@@ -1,0 +1,47 @@
+body
+{
+  background: url("static/images/fetchPagesBackground.jpg");
+}
+
+.proceed a
+{
+  font-family: 'Muli', sans-serif;
+  border-bottom: 1px solid #777777;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #333333;
+  border-top: 1px solid #000000;
+  color: #CCFF66;
+  display: block;
+  height: 2.5em;
+  padding: 0 1em;
+  width: 5em;       
+  text-decoration: none;       
+}
+
+#proceed
+{
+  position: relative;
+  bottom:0px;
+  left:0px;
+  /* background:url(images/submit.png); */
+  width:150px;
+  height:48px;
+  text-align: center;
+  /* text-indent:-9999px; */
+  font-size:20px;
+  border:none;
+  margin-top:20px;
+  cursor:pointer;
+  background: #FFFF00;
+  border-radius: 2px;
+}
+
+#proceed:hover
+{
+  /*color:#fff;
+  background-color: #216182;*/
+  /*color: #CCFF66;*/
+  color: black;
+  background-color: #80B3FF;
+  opacity:0.9;
+}

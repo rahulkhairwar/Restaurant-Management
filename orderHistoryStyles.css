@@ -1,0 +1,98 @@
+#changePassword
+{
+  position: relative;
+  bottom:101px;
+  
+  /* background:url(images/submit.png); */
+  width:180px;
+  height:48px;
+  text-align: center;
+  /* text-indent:-9999px; */
+  font-size:20px;
+  border:none;
+  margin-top:20px;
+  cursor:pointer;
+  background: white;
+  border-radius: 2px;
+  border: black;
+  border-style: solid;
+  border-width: 4px;}
+ 
+ 
+  #changePassword:hover 
+  {
+   color:#fff;
+   background-color: #216182;
+   opacity:0.9;
+  }
+  #home
+{ 
+  position: relative;
+  bottom:17px;
+  left:970px;
+  /* background:url(images/submit.png); */
+  width:150px;
+  height:48px;
+  text-align: center;
+  /* text-indent:-9999px; */
+  font-size:20px;
+  border:none;
+  margin-top:20px;
+  cursor:pointer;
+  background: white;
+  border-radius: 2px;
+  border: black;
+  border-style: solid;
+  border-width: 4px;
+}
+
+#home:hover {
+  color:#fff;
+  background-color: #216182;
+  opacity:0.9;
+}
+
+#logout
+{ 
+  position: relative;
+  bottom:185px;
+  left:1130px;
+  /* background:url(images/submit.png); */
+  width:150px;
+  height:48px;
+  text-align: center;
+  /* text-indent:-9999px; */
+  font-size:20px;
+  border:none;
+  margin-top:20px;
+  cursor:pointer;
+  background: white;
+  border-radius: 2px;
+  border: black;
+  border-style: solid;
+  border-width: 4px;
+}
+
+#logout:hover {
+  color:#fff;
+  background-color: #216182;
+  opacity:0.9;
+}
+
+#orderHistory
+{
+  position: relative;
+  bottom: 150px;
+  font-size: 25px;
+}
+
+#noHistory
+{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body
+{ background-image: url("static/images/changePasswordBackground.jpg");
+    background-size: cover;
+  }

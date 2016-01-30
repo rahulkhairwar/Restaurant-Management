@@ -1,0 +1,75 @@
+#inc
+{
+	background: #34d989;
+	position:relative;
+	left:450px;
+	bottom:50px;
+	background-image: -webkit-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -moz-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -ms-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -o-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: linear-gradient(to bottom, #FFFF00, #00FF00);
+	-webkit-border-radius: 13;
+	-moz-border-radius: 13;
+	border-radius: 100px;
+	font-family: Arial;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	width:50px;
+	text-decoration: none;
+}
+
+#inc:hover
+{
+	background: #CCFFFF;
+	background-image: -webkit-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -moz-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -ms-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -o-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: linear-gradient(to bottom, #E5FFFF, #00FFFF);
+	text-decoration: none;
+}
+
+#dec
+{
+	background: #34d989;
+	position:relative;
+	left:200px;
+	top:33px;
+	background-image: -webkit-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -moz-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -ms-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -o-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: linear-gradient(to bottom, #FFFF00, #00FF00);
+	-webkit-border-radius: 13;
+	-moz-border-radius: 13;
+	border-radius: 100px;
+	font-family: Arial;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	width:50px;
+	text-decoration: none;
+}
+
+#dec:hover
+{
+	background: #CCFFFF;
+	background-image: -webkit-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -moz-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -ms-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -o-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: linear-gradient(to bottom, #E5FFFF, #00FFFF);
+	text-decoration: none;
+}
+
+.qty
+{
+	height:40px;
+	position:relative;
+	left:285px;
+	top:7px;
+}

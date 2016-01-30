@@ -1,0 +1,202 @@
+h1
+{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #216182;
+}
+
+iframe
+{
+  width:1100px;
+  height:550px;
+  position: relative;
+  left: 170px;
+  top:30px;
+  border: 10px solid;
+}
+
+#starters
+{
+  position: relative;
+  left:40px;
+  top:20px;
+}
+
+#starters:hover
+{
+  background: #4be1c5 !important;
+}
+
+#mainCourse
+{
+  position: relative;
+  left:40px;
+  top:20px;
+}
+
+#mainCourse:hover
+{
+  background: #4be1c5 !important;
+}
+
+#desserts
+{
+  position: relative;
+  left:40px;
+  top:20px;
+}
+
+#desserts:hover
+{
+  background: #4be1c5 !important;
+}
+
+body
+{
+
+  /**
+   *
+   * background image of placeOrder should change when any url is loaded into the iframe
+   * by the url that is being loaded. And, then by default fetchStarters is loaded into 
+   * the iframe, and then on each click of the course buttons', the parent's (placeOrder's)
+   * background image should change accordingly.
+   *
+   */
+
+    background-image: url("static/images/startersCollage.jpeg");
+    background-size: cover;
+    /*overflow-y: hidden;*/
+    /*overflow-x: hidden;*/
+    overflow-y:hidden;
+
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    background-attachment: fixed;
+}
+
+.logout a
+{
+  font-family: 'Muli', sans-serif;
+  border-bottom: 1px solid #777777;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #333333;
+  border-top: 1px solid #000000;
+  color: #3a3a3a;
+  display: block;
+  height: 2.5em;
+  padding: 0 1em;
+  width: 5em;       
+  text-decoration: none;       
+}
+
+#logout
+{ 
+  position: relative;
+  bottom: 700px;
+  left: 1270px;
+  /* background:url(images/submit.png); */
+  width: 150px;
+  height: 48px;
+  text-align: center;
+  /* text-indent:-9999px; */
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: white;
+  border: black;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 4px;
+}
+
+#logout:hover {
+  color:#fff;
+  background-color: #216182;
+  opacity:0.9;
+}
+
+#settings
+{
+  position: relative;
+  bottom:784px;
+  left:1115px;
+  /* background:url(images/submit.png); */
+  width:150px;
+  height:48px;
+  text-align: center;
+  /* text-indent:-9999px; */
+  font-size:20px;
+  margin-top:20px;
+  cursor:pointer;
+  background: white;
+  border: black;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 4px;
+}
+
+#settings:hover {
+  color:#fff;
+  background-color: #216182;
+  opacity:0.9;
+}
+
+.startersButton{
+width: 150px;
+height: auto;
+border: 0px solid #000000;
+padding: 10px 20px;
+cursor:pointer;
+background: #cc3366;
+border-radius: 2px;
+box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.12);
+font-family: Arial, Tahoma;
+font-weight: bold;
+font-size: 17px;
+color: #ffffff;
+text-align: center;
+text-shadow: 0px -1px 1px rgba(0, 0, 0, 0);
+}
+
+.mainCourseAndDessertsButtons{
+width: 150px;
+height: auto;
+border: 0px solid #000000;
+padding: 10px 20px;
+cursor:pointer;
+background: #4bb2e1;
+border-radius: 2px;
+box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.12);
+font-family: Arial, Tahoma;
+font-weight: bold;
+font-size: 17px;
+color: #ffffff;
+text-align: center;
+text-shadow: 0px -1px 1px rgba(0, 0, 0, 0);
+}
+#tray{
+ position:relative;
+ left:806px;
+ bottom:784px;
+  /* background:url(images/submit.png); */
+  width: 150px;
+  height: 48px;
+  text-align: center;
+  /* text-indent:-9999px; */
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: white;
+  border: black;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 4px;
+}
+
+#tray:hover {
+  color:#fff;
+  background-color: #216182;
+  opacity:0.9;
+}

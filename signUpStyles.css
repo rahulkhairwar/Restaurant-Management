@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Muli:300);
+
+h1
+{
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+text-transform: uppercase;
+color: #216182;
+}
+/*
+iframe{
+width:1100px;
+height:550px;
+position: relative;
+    left: 170px;
+   top:120px;
+border: 10px solid;
+}*/
+
+div.rel
+{ position: relative;
+  left:210px;
+top:50px;}
+
+/*html { 
+  background: url("startersCollage.jpg"); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+body {
+    background: url(static/images/signUpBackground.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    background-attachment: fixed;
+}
+
+/* Centres the page (this could be container)*/
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    color: #999;
+}
+
+
+/* Labels are titles for the text fields. You can use a placeholder instead if you like*/
+label 
+{
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+form {
+	width: 460px;
+	margin: 0 auto;
+}
+
+/* Centres the form within the page */
+/*.right {
+    float: center;
+    width: 300px;
+    }*/
+
+/* Styles the text boxes */
+input, textarea, file {
+	width:439px;
+	height:27px;
+	background-color:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:18px;
+	color:#3a3a3a;
+}
+
+	input:focus, textarea:focus {
+		border:1px solid #97d6eb;
+	}
+
+/* Styles the text area boxes (message field) */	
+textarea 
+{
+	height:213px;
+	background-color: #efefef;
+}
+
+
+/* Styles the submit button */
+#signUp {
+	/* background:url(images/submit.png); */
+	background-color: #FFFF4D;
+	width:460px;
+	height:48px;
+	text-align: center;
+	/* text-indent:-9999px; */
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+		font-size: 20px;
+	font-weight: bold;
+}
+
+/* Styles the submit hover */	
+#signUp:hover {
+	color:#fff;
+	background-color: #216182;
+	opacity:0.9;
+}
+
+/* Styles the cancel button*/	
+#login {
+	/* background:url(images/cancel.png); */
+	background-color: #FFFF4D;
+	width:460px;
+	height:48px;
+	text-align: center;
+	/* text-indent:-9999px; */
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Styles the cancel hover */
+#login:hover {
+	color:#fff;
+	background-color: #000;
+	opacity:0.9;
+}
+
+#userNameTaken
+{
+	position: relative;
+	font-size: 35px;
+	color: white;
+	left: 520px;
+	top: 50px;
+}
+
+#signedUp
+{
+	position: relative;
+	font-size: 35px;
+	color: white;
+	left: 150px;
+	top: 50px;
+}

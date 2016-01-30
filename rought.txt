@@ -1,0 +1,61 @@
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+******
+alter table menu modify `dishName` varchar(50) NOT NULL DEFAULT '';
+
+
+To run in the athena server database :
+
+
+insert into dishTypes values('starter');
+
+insert into dishTypes values('mainCourse');
+
+insert into dishTypes values('dessert');
+
+insert into dishTypes values('extra');
+
+
+insert into menu values(1, 'starter', 'Tomato Soup', 50);
+
+insert into menu values(2, 'starter', 'Spinach Soup', 60);
+
+insert into menu values(3, 'starter', 'Chicken Soup', 80);
+
+insert into menu values(4, 'starter', 'Hot And Sour Corn Soup', 70);
+
+
+insert into menu values(5, 'mainCourse', 'Chicken Biryani', 150);
+
+insert into menu values(6, 'mainCourse', 'Veg Pulao', 110);
+
+insert into menu values(7, 'mainCourse', 'Veg Pizza', 120);
+
+insert into menu values(8, 'mainCourse', 'Chicken Pizza', 150);
+
+
+insert into menu values(9, 'dessert', 'Royal Falooda', 100);
+
+insert into menu values(10, 'dessert', 'Kesar Falooda', 90);
+
+insert into menu values(11, 'dessert', 'Kulfi Falooda', 80);
+
+insert into menu values(12, 'dessert', 'Royal Falooda', 70);
+
+insert into menu values(13, 'dessert', 'Chocolate Banana Sundae', 100);
+
+
+
+
+********
+Have to add userName attribute to orders table!!!!!!

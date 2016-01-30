@@ -1,0 +1,69 @@
+CREATE TABLE `dishTypes` (
+  `dishType` varchar(20) NOT NULL DEFAULT '',
+  PRIMARY KEY (`dishType`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+ CREATE TABLE `menu` (
+  `dishId` int(8) NOT NULL,
+  `dishType` varchar(20) NOT NULL DEFAULT '',
+  `dishName` varchar(20) NOT NULL DEFAULT '',
+  `price` double NOT NULL,
+  PRIMARY KEY (`dishId`),
+  KEY `FK_Menu_1` (`dishType`),
+  CONSTRAINT `FK_Menu_1` FOREIGN KEY (`dishType`) REFERENCES `dishTypes` (`dishType`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `users` (
+  `userName` varchar(45) NOT NULL DEFAULT '',
+  `password` varchar(45) NOT NULL DEFAULT '',
+  `firstName` varchar(45) NOT NULL DEFAULT '',
+  `lastName` varchar(45) NOT NULL DEFAULT '',
+  `address1` varchar(300) DEFAULT NULL,
+  `address2` varchar(300) DEFAULT NULL,
+  `address3` varchar(300) DEFAULT NULL,
+  `address4` varchar(300) DEFAULT NULL,
+  PRIMARY KEY (`userName`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `orders` (
+  `orderId` varchar(45) NOT NULL DEFAULT '',
+  `totalPrice` double DEFAULT '0',
+  `deliveryAddress` varchar(300) DEFAULT '',
+  `phoneNumber` double DEFAULT '0',
+  `userName` varchar(45) NOT NULL DEFAULT '',
+  PRIMARY KEY (`orderId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `dishOrders` (
+  `orderId` varchar(45) NOT NULL DEFAULT '',
+  `dishId` int(8) NOT NULL,
+  `quantity` int(8) NOT NULL DEFAULT '1',
+  `price` double NOT NULL,
+  KEY `FK_DishOrders_1` (`orderId`),
+  CONSTRAINT `FK_DishOrders_1` FOREIGN KEY (`orderId`) REFERENCES `orders` (`orderId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `state` (
+  `stateId` int(8) NOT NULL,
+  `stateName` varchar(45) NOT NULL DEFAULT '',
+  PRIMARY KEY (`stateId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `city` (
+  `stateId` int(8) NOT NULL,
+  `cityId` int(8) NOT NULL,
+  `cityName` varchar(45) NOT NULL,
+  PRIMARY KEY (`cityId`),
+  KEY `FK_City_1` (`stateId`),
+  CONSTRAINT `FK_City_1` FOREIGN KEY (`stateId`) REFERENCES `state` (`stateId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `street` (
+  `cityId` int(8) NOT NULL,
+  `streetId` int(8) NOT NULL,
+  `streetName` varchar(45) NOT NULL DEFAULT '',
+  PRIMARY KEY (`streetId`),
+  KEY `FK_Street_1` (`cityId`),
+  CONSTRAINT `FK_Street_1` FOREIGN KEY (`cityId`) REFERENCES `city` (`cityId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

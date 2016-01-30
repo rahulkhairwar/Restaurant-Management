@@ -1,0 +1,131 @@
+#dishImage
+{
+	text-align: center;
+	margin:0 auto;
+}
+
+#dishName
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+#inc
+{
+	background: #34d989;
+	position:relative;
+	left:450px;
+	bottom:50px;
+	background-image: -webkit-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -moz-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -ms-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -o-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: linear-gradient(to bottom, #FFFF00, #00FF00);
+	-webkit-border-radius: 13;
+	-moz-border-radius: 13;
+	border-radius: 100px;
+	font-family: Arial;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	width:50px;
+	text-decoration: none;
+}
+
+#inc:hover
+{
+	background: #CCFFFF;
+	background-image: -webkit-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -moz-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -ms-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -o-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: linear-gradient(to bottom, #E5FFFF, #00FFFF);
+	text-decoration: none;
+}
+
+#dec
+{
+	background: #34d989;
+	position:relative;
+	left:200px;
+	top:33px;
+	background-image: -webkit-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -moz-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -ms-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: -o-linear-gradient(top, #FFFF00, #00FF00);
+	background-image: linear-gradient(to bottom, #FFFF00, #00FF00);
+	-webkit-border-radius: 13;
+	-moz-border-radius: 13;
+	border-radius: 100px;
+	font-family: Arial;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	width:50px;
+	text-decoration: none;
+}
+
+#dec:hover
+{
+	background: #CCFFFF;
+	background-image: -webkit-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -moz-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -ms-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: -o-linear-gradient(top, #E5FFFF, #00FFFF);
+	background-image: linear-gradient(to bottom, #E5FFFF, #00FFFF);
+	text-decoration: none;
+}
+
+.qty
+{
+	height:40px;
+	position:relative;
+	left:285px;
+	top:7px;
+}
+
+#price
+{
+	background: #80FF80;
+	position:relative;
+	left:580px;
+	bottom:45px;
+	font-size: 28px; 
+	padding-top: .1em; 
+	padding-right: .25em; 
+	border: medium;
+	width: 0px; 
+}
+
+#addToTray
+{
+	position:relative;
+	bottom:10px;
+	left:460px;
+	width:150px;
+	height:48px;
+	text-align: center;
+	/* text-indent:-9999px; */
+	font-size:20px;
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+	background: #FF9900;
+	border-radius: 2px;
+}
+
+#addToTray:hover
+{
+	color:#fff;
+	background-color: #EB0000;
+	opacity:0.8;
+}
+
+body
+{
+	background: url("static/images/fetchPagesBackground.jpg");
+	overflow-y: scroll;
+	overflow-x: hidden;
+}

@@ -1,0 +1,99 @@
+form
+{
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+
+form input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  /*background-color: rgba(255, 255, 255, 0.2);*/
+  background-color: #7519D1;
+  width: 350px;
+  height: 60px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  color: black;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  font-weight: 300;
+}
+
+form input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+form input:focus {
+  background-color: white;
+  width: 500px;
+  color: black;
+}
+
+form button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #53e3a6;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+form button:hover
+{
+  background-color: #f5f7f9;
+}
+
+div.relative1
+{
+  position: relative;
+  top: 10px;
+}
+
+div.relative
+{
+  position: relative;
+  bottom: 46px;
+}
+
+body {
+  background: url(static/images/loginBackground.png);
+  opacity: 0.6; background-size : 1460px 755px;
+  background-repeat: no-repeat;
+  background-size: 1460px 785px;
+  /*background-size: cover;*/
+}
+
+#invalidCredentials
+{
+  color: blue;
+  font-weight: bold;
+  position: relative;
+  left: 370px;
+  font-size: 35px;
+}
+
+#welcome
+{
+  position: relative;
+  left: 180px;
+  top: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+}
